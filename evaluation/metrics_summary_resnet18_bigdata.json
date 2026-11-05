@@ -1,0 +1,37 @@
+{
+  "model_name": "best_resnet18_bigdata",
+  "architecture": "resnet18",
+  "training_set": "big_data_test_clean (34,622 unique)",
+  "best_epoch": 12,
+  "validation_accuracy": 99.26251097453907,
+  "validation_loss": 0.20196823171348924,
+  "big_data_test_acc": 99.17640298793334,
+  "synthetic_test_acc": 100.0,
+  "real_world_holdout": {
+    "accuracy": 97.87632729544035,
+    "total_faces": 3202,
+    "per_class": {
+      "mask_improper": {
+        "recall": 83.01886792452831,
+        "precision": 90.72164948453609,
+        "f1": 86.69950738916256,
+        "correct": 88,
+        "ground_truth_total": 106
+      },
+      "mask_proper": {
+        "recall": 98.3484073928431,
+        "precision": 99.36432260627731,
+        "f1": 98.85375494071145,
+        "correct": 2501,
+        "ground_truth_total": 2543
+      },
+      "no_mask": {
+        "recall": 98.55334538878843,
+        "precision": 92.68707482993197,
+        "f1": 95.53023663453111,
+        "correct": 545,
+        "ground_truth_total": 553
+      }
+    }
+  }
+}

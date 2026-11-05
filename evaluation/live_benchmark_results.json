@@ -1,0 +1,72 @@
+{
+  "device": "hybrid_gpu_cpu",
+  "gpu_name": "GPU (CUDA Accelerated)",
+  "cpu_name": "CPU (Host Processor)",
+  "results": [
+    {
+      "arch": "resnet18_bigdata",
+      "display_name": "ResNet-18 (Champion Clean) 🏆",
+      "size_mb": 44.8,
+      "params_m": 11.18,
+      "gpu_latency_ms": 1.25,
+      "gpu_fps": 802.2,
+      "cpu_latency_ms": 6.82,
+      "cpu_fps": 146.6,
+      "test_acc": 99.85,
+      "holdout_acc": 95.12,
+      "improper_f1": 86.70
+    },
+    {
+      "arch": "resnet18_baseline",
+      "display_name": "ResNet-18 (Baseline Adapted)",
+      "size_mb": 44.8,
+      "params_m": 11.18,
+      "gpu_latency_ms": 1.25,
+      "gpu_fps": 802.2,
+      "cpu_latency_ms": 6.82,
+      "cpu_fps": 146.6,
+      "test_acc": 99.93,
+      "holdout_acc": 94.44,
+      "improper_f1": 60.44
+    },
+    {
+      "arch": "mobilenet_v3_large",
+      "display_name": "MobileNetV3-Large",
+      "size_mb": 17.0,
+      "params_m": 5.48,
+      "gpu_latency_ms": 2.21,
+      "gpu_fps": 453.3,
+      "cpu_latency_ms": 5.42,
+      "cpu_fps": 184.6,
+      "test_acc": 99.63,
+      "holdout_acc": 92.44,
+      "improper_f1": 53.27
+    },
+    {
+      "arch": "efficientnet_b0",
+      "display_name": "EfficientNet-B0",
+      "size_mb": 16.4,
+      "params_m": 5.29,
+      "gpu_latency_ms": 3.53,
+      "gpu_fps": 283.3,
+      "cpu_latency_ms": 9.67,
+      "cpu_fps": 103.4,
+      "test_acc": 99.78,
+      "holdout_acc": 91.38,
+      "improper_f1": 52.89
+    },
+    {
+      "arch": "mobilenet_v2",
+      "display_name": "MobileNetV2 (Adapted)",
+      "size_mb": 9.2,
+      "params_m": 2.23,
+      "gpu_latency_ms": 1.71,
+      "gpu_fps": 586.2,
+      "cpu_latency_ms": 6.84,
+      "cpu_fps": 146.1,
+      "test_acc": 99.63,
+      "holdout_acc": 89.07,
+      "improper_f1": 38.73
+    }
+  ]
+}
